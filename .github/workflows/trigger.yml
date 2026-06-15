@@ -1,7 +1,11 @@
-name: Local Test Trigger
+name: My First Trigger
 
 on:
   workflow_dispatch: # 允許在 GitHub 網頁上手動點擊執行
+  schedule:
+    # GitHub Actions 伺服器使用的是 UTC 時間。
+    # 台灣時間 (UTC+8) 的凌晨 3:00 = UTC 時間的前一天 19:00
+    - cron: '0 19 * * *'
 
 jobs:
   test-daily:
