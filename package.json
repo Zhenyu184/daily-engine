@@ -1,0 +1,10 @@
+{
+  "name": "daily-engine",
+  "version": "1.0.0",
+  "description": "Daily task engine",
+  "main": "index.js",
+  "bin": {
+    "daily-engine": "./index.js"
+  },
+  "type": "module"
+}
