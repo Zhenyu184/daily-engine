@@ -23,5 +23,4 @@ jobs:
       - name: Run daily-engine logic via npx
         # 透過 npx --yes 從 Github 直接下載並執行我們寫好的 script
         # 這樣就不用發布到 NPM registry 也能共用程式碼了！
-        # 如果你最後的 github 帳號不是 chris，請記得修改這裡的路徑
-        run: npx --yes github:chris/daily-engine
+        run: npx --yes github:Zhenyu184/daily-engine
