@@ -18,7 +18,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
 
       - name: Run daily-engine logic via npx
         # 透過 npx --yes 從 Github 直接下載並執行我們寫好的 script
