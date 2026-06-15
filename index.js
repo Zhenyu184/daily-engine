@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 console.log("==========================================");
+console.log("👋 Hello World!");
 console.log("🚀 [daily-engine] 每日任務開始執行...");
 console.log(`📅 當前時間: ${new Date().toISOString()}`);
 
