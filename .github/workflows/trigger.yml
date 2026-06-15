@@ -1,0 +1,9 @@
+name: Local Test Trigger
+
+on:
+  workflow_dispatch: # 允許在 GitHub 網頁上手動點擊執行
+
+jobs:
+  test-daily:
+    # 呼叫同一份專案下的共用骨架
+    uses: ./.github/workflows/reusable-daily.yml
